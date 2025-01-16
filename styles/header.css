@@ -1,5 +1,6 @@
 header {
   background-color: black;
+  color: white;
 }
 
 .top-bar {
@@ -21,6 +22,14 @@ header {
   vertical-align: bottom;
 }
 
+.graphik-medium-style {
+  font-family: "Graphik Medium", Arial, Helvetica, sans-serif;
+  line-height: 1.27em;
+  letter-spacing: -0.0125em;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .top-bar__right {
   position: absolute;
   top: 0.875rem;
@@ -28,11 +37,6 @@ header {
   display: flex;
   gap: 1rem;
   align-items: center;
-  font-family: "Graphik", Arial, Helvetica, sans-serif;
-  line-height: 1.27em;
-  letter-spacing: -0.0125em;
-  font-size: 12px;
-  font-weight: 500;
   min-width: 2.5rem;
 }
 
@@ -49,15 +53,27 @@ header {
   margin: 0 2rem 0 0;
 }
 
-.top-bar__right a {
+.top-bar a {
   color: white;
-  text-decoration: none;
-}
-
-.top-bar__right a:hover {
-  text-decoration: underline;
 }
 
 .btn-subscribe a:hover {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.top-nav {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border-bottom: var(--border-bottom-token);
+}
+
+.top-nav__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
 }

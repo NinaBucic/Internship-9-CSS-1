@@ -9,4 +9,18 @@ body {
   line-height: 1.5em;
   font-size: 21px;
   font-weight: 400;
+  --border-bottom-token: 1px solid rgb(229, 229, 229);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
