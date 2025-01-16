@@ -1,0 +1,63 @@
+header {
+  background-color: black;
+}
+
+.top-bar {
+  display: grid;
+  grid-template-columns: 17rem auto 17rem;
+  padding: 1rem 0;
+  height: 4.5rem;
+}
+
+.top-bar__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10rem;
+}
+
+.top-bar__center img {
+  height: 2.5rem;
+  vertical-align: bottom;
+}
+
+.top-bar__right {
+  position: absolute;
+  top: 0.875rem;
+  right: 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-family: "Graphik", Arial, Helvetica, sans-serif;
+  line-height: 1.27em;
+  letter-spacing: -0.0125em;
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 2.5rem;
+}
+
+.btn-subscribe {
+  height: 30px;
+  width: 112px;
+  background: #0787ca;
+  border-radius: 2px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.btn-search {
+  margin: 0 2rem 0 0;
+}
+
+.top-bar__right a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-bar__right a:hover {
+  text-decoration: underline;
+}
+
+.btn-subscribe a:hover {
+    text-decoration: none;
+}
