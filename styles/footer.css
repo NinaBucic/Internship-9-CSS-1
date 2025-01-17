@@ -55,3 +55,39 @@ footer {
 .footer-nav a:hover {
   text-decoration: underline;
 }
+
+.social-media {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border-bottom: var(--border-bottom-token-black);
+  align-items: center;
+  gap: 4rem;
+}
+
+.social-media__text {
+  font-family: "Graphik Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: -0.0125em;
+  line-height: 1.27em;
+  font-size: 10px;
+}
+
+.social-media__text a {
+  text-decoration: underline;
+}
+
+.social-media__icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: start;
+}
+
+.social-media__icons img {
+  height: 26px;
+  transition: transform 200ms ease;
+}
+
+.social-media__icons a:hover > img {
+  filter: brightness(2);
+}
