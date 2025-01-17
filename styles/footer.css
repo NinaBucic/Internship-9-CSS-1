@@ -6,7 +6,7 @@ footer {
 }
 
 .footer-logo {
-  border-bottom: var(--border-bottom-token-black);
+  border-bottom: var(--border-style-token-black);
   text-align: center;
   padding: 1rem 0;
 }
@@ -19,7 +19,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 2rem 0;
-  border-bottom: var(--border-bottom-token-black);
+  border-bottom: var(--border-style-token-black);
 }
 
 .footer-middle p {
@@ -41,7 +41,7 @@ footer {
 
 .footer-nav-other {
   padding: 2rem 0;
-  border-bottom: var(--border-bottom-token-black);
+  border-bottom: var(--border-style-token-black);
 }
 
 .footer-nav-other ul {
@@ -60,7 +60,7 @@ footer {
   padding: 2rem 0;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  border-bottom: var(--border-bottom-token-black);
+  border-bottom: var(--border-style-token-black);
   align-items: center;
   gap: 4rem;
 }

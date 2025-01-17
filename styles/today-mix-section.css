@@ -1,0 +1,54 @@
+.today-mix {
+  width: 90%;
+  margin: 0 auto;
+  border-top: var(--border-style-token-white);
+}
+
+.today-mix h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-family: "Irvin Heading Pro", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 28px;
+  line-height: 1.14286em;
+}
+
+.article h3 {
+  font-size: 22px;
+  line-height: 1.27273em;
+  margin-bottom: 5px;
+}
+
+.articles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles a {
+  width: 22%;
+}
+
+.article {
+  width: 100%;
+}
+
+.article img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.article p {
+  color: rgb(51, 51, 51);
+  line-height: 1.41176em;
+  font-size: 17px;
+}
+
+.article .author-signature {
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(18, 18, 18);
+  font-size: 13px;
+}
