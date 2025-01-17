@@ -2,6 +2,7 @@
   width: 90%;
   margin: 0 auto;
   border-top: var(--border-style-token-white);
+  margin-bottom: 3rem;
 }
 
 .today-mix h2 {

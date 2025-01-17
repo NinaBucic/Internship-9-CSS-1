@@ -1,0 +1,15 @@
+.puzzles-games {
+  width: 90%;
+  margin: 0 auto;
+  border-top: var(--border-style-token-white);
+}
+
+.puzzles-games h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-family: "Irvin Heading Pro", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 28px;
+  line-height: 1.14286em;
+}
