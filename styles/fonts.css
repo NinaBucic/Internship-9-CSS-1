@@ -12,3 +12,18 @@
   font-family: "Graphik Regular";
   src: url("../assets/fonts/Graphik-Regular-Trial.otf") format("opentype");
 }
+
+@font-face {
+  font-family: "Irvin Heading Pro";
+  src: url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.eot");
+  src: url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.svg#Irvin-Heading")
+      format("svg");
+}
