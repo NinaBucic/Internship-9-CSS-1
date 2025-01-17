@@ -1,7 +1,57 @@
 footer {
   margin-top: 3.5rem;
-  width: 100%;
-  background-color: black;
+  background-color: rgb(18, 18, 18);
+  color: rgb(162, 162, 162);
+  padding: 3rem;
+}
+
+.footer-logo {
+  border-bottom: var(--border-bottom-token-black);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-logo img {
+  height: 2.5rem;
+}
+
+.footer-middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 0;
+  border-bottom: var(--border-bottom-token-black);
+}
+
+.footer-middle p {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-family: "Irvin Heading Pro", Georgia, "Times New Roman", Times, serif;
+  line-height: 1.3em;
+  font-size: 14px;
   color: white;
-  padding: 3em;
+}
+
+.footer-middle ul {
+  column-count: 2;
+  font-family: "Graphik Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: -0.0125em;
+  line-height: 1.71em;
+  font-size: 14px;
+}
+
+.footer-nav-other {
+  padding: 2rem 0;
+  border-bottom: var(--border-bottom-token-black);
+}
+
+.footer-nav-other ul {
+  column-count: 4;
+  font-family: "Graphik Medium", Arial, Helvetica, sans-serif;
+  letter-spacing: -0.0125em;
+  line-height: 1.71em;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
 }
