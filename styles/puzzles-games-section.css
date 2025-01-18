@@ -2,14 +2,93 @@
   width: 90%;
   margin: 0 auto;
   border-top: var(--border-style-token-white);
+  margin-bottom: 3rem;
 }
 
 .puzzles-games h2 {
   text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin: 1rem 0;
   font-family: "Irvin Heading Pro", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 28px;
   line-height: 1.14286em;
+}
+
+.puzzles-games > p {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 21px;
+  line-height: 1.33333em;
+  font-style: italic;
+}
+
+.games {
+  display: flex;
+  justify-content: space-between;
+}
+
+.games a {
+  display: block;
+  width: 23%;
+  max-height: 320px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  height: 100%;
+  text-align: center;
+}
+
+.game p {
+  color: rgb(51, 51, 51);
+  line-height: 1.41176em;
+  font-size: 17px;
+}
+
+.puzzles-games h3 {
+  font-size: 18px;
+  line-height: 1.375em;
+  font-family: "Irvin Heading Pro", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.game img {
+  height: auto;
+  max-height: 40%;
+  margin-bottom: 1rem;
+  margin-top: auto;
+  overflow: clip;
+}
+
+.game-crossword {
+  background-color: rgb(132, 201, 255);
+}
+
+.game-mini {
+  background-color: rgb(165, 232, 253);
+}
+
+.game-name-drop {
+  background-color: rgb(255, 239, 185);
+}
+
+.game-caption-contest {
+  background-color: rgb(246, 246, 246);
+}
+
+.game .play {
+  margin-top: 10%;
+  font-family: "Graphik Medium", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.0125em;
+}
+
+.game:hover .play {
+  text-decoration: underline;
 }
