@@ -206,3 +206,24 @@ header {
     line-height: 1.41176em;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .top-bar {
+    display: grid;
+    grid-template-columns: 5.5rem auto 5.5rem;
+  }
+
+  .header-story {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header-story__image img {
+    vertical-align: bottom;
+  }
+
+  .header-story__content {
+    margin: 3rem 1.5rem;
+  }
+}
